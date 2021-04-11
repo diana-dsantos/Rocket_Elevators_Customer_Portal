@@ -1,0 +1,310 @@
+﻿@{
+    ViewData["Title"] = "Products";
+}
+
+<link href="~/css/layout.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<section class="page-header dark page-header-xs" style="">
+    <div class="container">
+
+        <h1>Products</h1>
+
+
+        <div id="exTab2" class="container">
+            <ul class="nav nav-tabs">
+                <li class="active">
+                    <a href="#1" data-toggle="tab">Building</a>
+                </li>
+                <li>
+                    <a href="#2" data-toggle="tab">Baterries</a>
+                </li>
+                <li>
+                    <a href="#3" data-toggle="tab">Columns</a>
+                </li>
+                <li>
+                    <a href="#4" data-toggle="tab">Elevators</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+<section>
+    <div class="tab-content ">
+        <div class="tab-pane active" id="1">
+            <div class="card-body">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Building Id</th>
+                            <th>Status</th>
+                            <th>Certificate Operation</th>
+                            <th>New Intervention</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        @* =========================================== COlUMNS =========================================== *@
+        <div class="tab-pane" id="2">
+            <div class="card-body">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Battery Id</th>
+                            <th>Building Id</th>
+                            <th>Status</th>
+                            <th>Certificate Operation</th>
+                            <th>New Intervention</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        @* =========================================== COlUMNS =========================================== *@
+        <div class="tab-pane" id="3">
+            <div class="card-body">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Column Id</th>
+                            <th>Battery Id</th>
+                            <th>Building Type</th>
+                            <th>Floors Served</th>
+                            <th>Status</th>
+                            <th>New Intervention</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        @* =========================================== ELEVATORS =========================================== *@
+        <div class="tab-pane" id="4">
+            <div class="card-body">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Elevator Id</th>
+                            <th>Column Id</th>
+                            <th>Model</th>
+                            <th>Serial Number</th>
+                            <th>Status</th>
+                            <th>New Intervention</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /PAGE HEADER -->
+<!-- -->
+<section>
+    <div class="container">
+
+        <div id="portfolio">
+
+
+            <div class="mix-grid">
+
+                <div class="row mix batteries">
+                    <!-- item -->
+
+                    <div class="col-md-7">
+                        <!-- image -->
+                        <div class="item-box">
+                            <figure>
+                                <span class="item-hover">
+                                    <span class="overlay dark-5"></span>
+
+                                </span>
+
+                            </figure>
+                        </div>
+                    </div><!-- /image -->
+
+                    <div class="col-md-10">
+                        <!-- description -->
+
+
+                        <div class="mt-30">
+                            <!-- description -->
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque.</p>
+
+                        </div>
+
+                    </div><!-- /description -->
+
+                </div><!-- /item -->
+
+            </div><!-- /item -->
+
+        </div>
+
+    </div>
+
+
+</section>
+<!-- / -->
+<!-- JAVASCRIPT FILES -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+@{
+    ViewData["Title"] = "Products";
+}
+
+
+<!-- THEME CSS -->
+<link href="~/css/essentials.css" rel="stylesheet" type="text/css" />
+<link href="~/css/layout.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+<section class="page-header dark page-header-xs" style="">
+    <div class="container">
+
+        <h1>Products</h1>
+
+
+        <div id="exTab2" class="container">
+            <ul class="nav nav-tabs">
+                <li class="active">
+                    <a href="#1" data-toggle="tab">Building</a>
+                </li>
+                <li>
+                    <a href="#2" data-toggle="tab">Baterries</a>
+                </li>
+                <li>
+                    <a href="#3" data-toggle="tab">Columns</a>
+                </li>
+                <li>
+                    <a href="#4" data-toggle="tab">Elevators</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+<section>
+    <div class="tab-content ">
+        <div class="tab-pane active" id="1">
+            <div class="card-body">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Building Id</th>
+                            <th>Status</th>
+                            <th>Certificate Operation</th>
+                            <th>New Intervention</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        @* =========================================== COlUMNS =========================================== *@
+        <div class="tab-pane" id="2">
+            <div class="card-body">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Battery Id</th>
+                            <th>Building Id</th>
+                            <th>Status</th>
+                            <th>Certificate Operation</th>
+                            <th>New Intervention</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        @* =========================================== COlUMNS =========================================== *@
+        <div class="tab-pane" id="3">
+            <div class="card-body">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Column Id</th>
+                            <th>Battery Id</th>
+                            <th>Building Type</th>
+                            <th>Floors Served</th>
+                            <th>Status</th>
+                            <th>New Intervention</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        @* =========================================== ELEVATORS =========================================== *@
+        <div class="tab-pane" id="4">
+            <div class="card-body">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Elevator Id</th>
+                            <th>Column Id</th>
+                            <th>Model</th>
+                            <th>Serial Number</th>
+                            <th>Status</th>
+                            <th>New Intervention</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /PAGE HEADER -->
+<!-- -->
+<section>
+    <div class="container">
+
+        <div id="portfolio">
+
+
+            <div class="mix-grid">
+
+                <div class="row mix batteries">
+                    <!-- item -->
+
+                    <div class="col-md-7">
+                        <!-- image -->
+                        <div class="item-box">
+                            <figure>
+                                <span class="item-hover">
+                                    <span class="overlay dark-5"></span>
+
+                                </span>
+
+                            </figure>
+                        </div>
+                    </div><!-- /image -->
+
+                    <div class="col-md-10">
+                        <!-- description -->
+
+
+                        <div class="mt-30">
+                            <!-- description -->
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque.</p>
+
+                        </div>
+
+                    </div><!-- /description -->
+
+                </div><!-- /item -->
+
+            </div><!-- /item -->
+
+        </div>
+
+    </div>
+
+
+</section>
+<!-- / -->
+<!-- JAVASCRIPT FILES -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
