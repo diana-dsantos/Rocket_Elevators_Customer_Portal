@@ -1,4 +1,4 @@
-![](images/week11photo01.jpg)
+![](~/images/week11photo01.jpg)
 
 # Rocket Elevators Customer Portal <img src="images/R2.png" align="right" alt="Rocket Elevators logo" width="" height="100">
 -----------------------------------------------------------------------------------------------
