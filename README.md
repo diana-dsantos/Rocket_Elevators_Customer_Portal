@@ -37,11 +37,11 @@ login: eddie@bailey.net  /  password: 123456
 
 
 ### Home page, once signed in
-![](images/week11photo03.jpg)
+![](/wwwroot/images/week11photo03.jpg)
 
 ## 2) Create a new SQL database, specially for this portal, that should contain only the login and password informations about the client;
    
-![](images/week11MicrosoftAqllogo.png)
+![](/wwwroot/images/week11MicrosoftAqllogo.png)
 
 
 ## 3 new Rest API end points:
@@ -50,27 +50,27 @@ login: eddie@bailey.net  /  password: 123456
 
 ## 3.B) GET: to retrieve informations from the client that are in the main Rocket Elevators's database (MySQL), like his/her buildings, batteries, columns, elevators;
 
-![](images/week11photo08.jpg)
+![](/wwwroot/images/week11photo08.jpg)
 
 ## 3.C) PULL: for all customer's informations
 
-![](images/week11photo09.jpg)
+![](/wwwroot/images/week11photo09.jpg)
 
 ## 4) A page for Intervention, in this new portal, where the client will be able to create his/her own interventions;
 
-![](images/week11photo04.jpg)
+![](/wwwroot/images/week11photo04.jpg)
 
 ## 5) A page for the client's products, in this new portal, where the client will be able to consult the informations about his/her products and also it will be possible to create an interventions from this page, that will lead the selected and sent informations, to the page Intervention and then it will be possible to create a description and submit the form; 
 
-![](images/week11photo05.jpg)
+![](/wwwroot/images/week11photo05.jpg)
 
-![](images/week11photo06.jpg)
+![](/wwwroot/images/week11photo06.jpg)
 
 ## 6) A page for the customer's profile informations, in this new portal, where the user can update any information;
 
-![](images/week11photo07.jpg)
+![](/wwwroot/images/week11photo07.jpg)
 
 
-![](images/week11photo10.jpg)
+![](/wwwroot/images/week11photo10.jpg)
 
 -----------------------------------------------------------------------------------------------
